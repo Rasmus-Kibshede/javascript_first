@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <script src="js/constLetVars.js"></script>
+  <script src="js/backGroundColor.js"></script>
+</head>
+<body>
+
+<h1 id="welcomeText">Welcome</h1>
+
+<input type="text" id="userName">
+<button onclick="print(document.getElementById('userName').value)">Enter</button>
+
+
+<div id="Calculator">
+
+  <input type="text" id="firstNumber">
+  <input type="text" id="secondNumber">
+  <input type="text" id="char">
+  <button onclick="calculateTwoNumbers(document.getElementById('firstNumber'),
+  document.getElementById('secondNumber'),
+  document.getElementById('char'))">Calculate
+  </button>
+
+
+  <h2 id="calculateAnswer"></h2>
+
+
+</div>
+
+<h1 id="backgroundColor">Color here</h1>
+<input type="text" id="getColor">
+<button onclick="setBackGroundColor(document.getElementById('getColor'))">Color</button>
+<button onclick="setRandomBackGroundColor()">Random Color</button>
+
+
+</body>
+</html>
