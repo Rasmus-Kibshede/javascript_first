@@ -10,15 +10,15 @@
 
 <h1 id="welcomeText">Welcome</h1>
 
-<input type="text" id="userName">
+<input type="text" id="userName" placeholder="Type your name here">
 <button onclick="print(document.getElementById('userName').value)">Enter</button>
 
 
 <div id="Calculator">
 
-  <input type="text" id="firstNumber">
-  <input type="text" id="secondNumber">
-  <input type="text" id="char">
+  <input type="text" id="firstNumber" placeholder="First number">
+  <input type="text" id="secondNumber" placeholder="Second number">
+  <input type="text" id="char" placeholder="Type +, *, / or -">
   <button onclick="calculateTwoNumbers(document.getElementById('firstNumber'),
   document.getElementById('secondNumber'),
   document.getElementById('char'))">Calculate
@@ -31,7 +31,7 @@
 </div>
 
 <h1 id="backgroundColor">Color here</h1>
-<input type="text" id="getColor">
+<input type="text" id="getColor" placeholder="Type a color here">
 <button onclick="setBackGroundColor(document.getElementById('getColor'))">Color</button>
 <button onclick="setRandomBackGroundColor()">Random Color</button>
 
