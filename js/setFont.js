@@ -15,17 +15,12 @@ function decreaseFontSize() {
 }
 
 function escapePressed(k) {
-  console.log(k);
-  if (k.key == 'Escape') {
-    pTag.style.fontSize = '10px';
-  }
+  pTag.style.fontSize = '10px';
 }
 
-function increaseButtonWidth(k) {
-  if (k.key == 'p') {
-    pbWidth++;
-    btn2.style.width = String(pbWidth) + 'px';
-  }
+function increaseButtonWidth() {
+  pbWidth++;
+  btn2.style.width = String(pbWidth) + 'px';
 }
 
 function keyPressed(k) {
@@ -35,7 +30,7 @@ function keyPressed(k) {
       escapePressed(k);
       break;
     case 'p' :
-      increaseButtonWidth(k);
+      increaseButtonWidth();
       break;
     default:
       console.log("ikke noget vigtigt k=" + k);
