@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #888888;
+}
+
+.btn2 {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  font-family: inherit;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.btn3 {
+  background-color: blueviolet;
+  color: burlywood;
+  font-size: 25px;
+  font-family: "Times New Roman", sans-serif;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.first {
+  border: none;
+  font-size: 10px;
+}
+
