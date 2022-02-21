@@ -7,7 +7,7 @@ body {
   background-color: #888888;
 }
 
-.btn2 {
+#btn2 {
   border: none;
   background-color: black;
   color: white;
@@ -17,7 +17,7 @@ body {
   cursor: pointer;
 }
 
-.btn3 {
+#btn3 {
   background-color: blueviolet;
   color: burlywood;
   font-size: 25px;
@@ -26,8 +26,13 @@ body {
   cursor: pointer;
 }
 
-.first {
+#first {
   border: none;
   font-size: 10px;
 }
 
+
+.btn{
+  background-color: black;
+  color: white;
+}
