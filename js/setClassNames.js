@@ -9,7 +9,7 @@ function setElementStyle() {
   const pureName = String(pbSetStyle.value).substring(1, pbSetStyle.value.length);
 
   if (firstChar == '.') {
-    elm.classList.add(pureName);
+    elm.className = pureName;
   } else if (firstChar == '#') {
     elm.id = pureName;
   }
